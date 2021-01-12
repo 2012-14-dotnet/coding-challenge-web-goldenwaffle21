@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.header {
+    order: 1;
+    flex-grow: 1;
+}
+
+.h1, .p, .h2, .ul, .footer {
+    order: 2;
+    flex-grow: 3;
+}
+
+.li {
+    flex-grow: 1;
+}
+
+.figure, .img {
+    width: 100%;
+}
